@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+
+h6 {
+  color: White hsl(0, 0%, 100%);
+  color: Light Grey hsl(217, 12%, 63%);
+  color: Medium Grey hsl(216, 12%, 54%);
+  color: Dark Blue hsl(213, 19%, 18%);
+  color: Very Dark Blue hsl(216, 12%, 8%);
+  color: Orange hsl(25, 97%, 53%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 15px;
+  font-family: "Overpass", sans-serif;
+}
+
+
+.container {
+  background-color: hsl(216, 12%, 8%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  width: 410px;
+  background-image: linear-gradient(
+    to bottom,
+    hsl(213, 25%, 15%),
+    hsl(213, 25%, 10%)
+  );
+  border-radius: 20px;
+}
+
+.sec1{
+    width: 410px;
+    color: #fff;
+    height:500px ;
+    padding: 20px;
+}
+
+h2{
+    margin-top: 20px;
+    font-size: 1.7rem;
+}
+
+p{
+    margin-top: 10px;
+    color:hsl(216, 12%, 54%);
+    line-height: 1.5rem;
+  }
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+  }
+  
+  .btn{
+    padding: 17px 20px;
+    border-radius: 50%;
+    background-color:hsl(213, 19%, 18%);
+    color:hsl(216, 12%, 54%) ;
+    border: none;
+    font-size: 1rem;
+  }
+  
+  .btn:hover{
+    cursor: pointer;
+    color: white;
+    background-color:hsl(25, 97%, 53%);
+  }
+
+  .submit{
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 30px;
+    margin-top: 30px;
+    background-color:hsl(25, 97%, 53%);
+    color: white;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+  }
+
+  .sec2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 410px;
+    color: #fff;
+    padding: 30px;
+  }
+
+  .img-thank{
+    margin-top: 20px;
+  }
+
+  .selectbtn{
+    margin-top: 25px;
+    padding: 10px 20px;
+    color:hsl(25, 97%, 53%);
+    font-size: 1rem;
+    background-color:hsl(213, 19%, 18%);
+    border: none;
+    border-radius:30px ;
+    letter-spacing: 2px;
+    cursor: pointer;
+  }
+  .selectbtn:hover{
+    color: white;
+    background-color:hsl(25, 97%, 53%) ;
+  }
+
+  .sec h2{
+    margin-top: 30px;
+  }
+
+  .sec2 p{
+    text-align: center;
+    padding: 5px;
+  }
+
+  
+  .visibility{
+      display: none;
+  }
+
+  .active{
+    color: white;
+    background-color: #7d7f7c;
+  }
+
+  #star{
+      padding: 10px;
+      background-color:hsl(213, 19%, 18%;
+      border-radius: 50%;
+    }
+    
+    
+    
